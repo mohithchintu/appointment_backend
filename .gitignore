@@ -1,0 +1,93 @@
+# Ignore .NET build artifacts
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+
+# Environment and secrets
+.env
+appsettings.Development.json
+secrets.json
+
+# Visual Studio files
+.vscode/
+.vs/
+
+# IDE-specific files
+.idea/
+.DS_Store
+Thumbs.db
+
+# Rider
+.idea/
+*.iml
+
+# macOS
+*.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Git directory
+.git/
+
+# Generated files
+Generated_Code/
+
+# Dependencies
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Ignore node_modules if using npm for frontend (optional)
+node_modules/
+
+# Build files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.log
+*.zip
+*.tmp
+*.vsix
+*.config
+*.pfx
+*.publishsettings
+*.coverage
+*.dbmdl
+*.jfm
+
+# Coverage
+coverage/
+*.coverage
+*.coveragejson
+*.lcov
+
+# Other temporary files
+*.pid
+*.seed
+*.pid.lock
+
+# ReSharper files
+_ReSharper*
+*.DotSettings.user
+
+appsettings.json
